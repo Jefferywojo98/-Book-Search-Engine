@@ -16,7 +16,7 @@ module.exports = {
     }
 
     if (!token) {
-      return res.status(400).json({ message: 'You have no token!' });
+      return req;
     }
 
     // verify token and get user data out of it
@@ -26,6 +26,7 @@ module.exports = {
     } catch {
       console.log('Invalid token');
     }
+    return req;
   },
   signToken: function ({ username, email, _id }) {
     const payload = { username, email, _id };
