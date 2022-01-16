@@ -54,7 +54,6 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 * [Technology Used](#technology-used)
 * [Links](#links)
 * [Screenshots/Video](#Screenshots/Videos)
-* [Usage](#usage)
 * [Questions](#questions)
 * [License](#License)
 
